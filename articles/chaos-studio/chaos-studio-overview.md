@@ -22,6 +22,10 @@ The following video provides more background about Azure Chaos Studio:
 
 > [!VIDEO https://aka.ms/docs/player?id=29017ee4-bdfa-491e-acfe-8876e93c505b]
 
+> [!IMPORTANT]
+> Azure Chaos Studio is currently in [public preview](https://azure.microsoft.com/support/legal/preview-supplemental-terms/). 
+
+
 ## Chaos Studio scenarios
 
 You can use chaos engineering for various resilience validation scenarios that span the service development and operations lifecycle. There are two types of scenarios:
@@ -64,6 +68,17 @@ The following diagram shows the layout of a chaos experiment in Chaos Studio:
 ![Diagram showing the layout of a chaos experiment.](images/chaos-experiment.png)
 
 A chaos experiment is an Azure resource in a subscription and resource group. You can use the Azure portal or the [Chaos Studio REST API](/rest/api/chaosstudio) to create, update, start, cancel, and view the status of experiments.
+
+## Regional availability
+
+Azure DNS Private Resolver is available in the following regions:
+
+- Central US
+- East US
+- West US
+
+
+See [Azure region availability](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=chaos-studio)
 
 ## Next steps
 
